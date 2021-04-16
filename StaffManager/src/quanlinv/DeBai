@@ -1,0 +1,13 @@
+Xây dưng một chương-trình để quản lí nhân-viên của 1 công-ty. 
+Nhân-viên gồm mã, tên, địa-chỉ, lương căn-bản, ngày làm việc.
+Nhân-viên làm việc theo phòng ban. NV phòng tài-chánh có thêm thông-tin: trợ-cấp. NV phòng kế-toán có thêm thông-tin: năm kinh-nghiệm
+Chương-trình này cung cấp 1 menu như sau:
+1 - Thêm 1 nhân-viên mới
+2 - Xuất danh sách nhân-viên
+3 - Tìm kiếm nhân-viên dựa vô mã
+4 - Xuất báo-cáo 
+    4.1 - Báo-cáo về lương
+    4.2 - Báo-cáo ngày làm việc
+5 - Chỉnh-sửa thông-tin nhân-viên
+6 - Sắp-xếp danh sách nhân-viên theo mã
+7 - Thoát

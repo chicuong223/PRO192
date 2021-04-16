@@ -1,0 +1,28 @@
+String code, title;
+		 int choice;
+		 Scanner sc=new Scanner(System.in);
+		System.out.println("1 - Detective Book");
+		System.out.println("2 - Science Book");
+		System.out.println("Your choice: ");
+		choice = sc.nextInt();
+		System.out.println("Code: ");
+		code = sc.nextLine();
+		System.out.println("Title: ");
+		sc = new Scanner(System.in);
+		title = sc.nextLine();
+		switch(choice) {
+		case 1:
+			int price, yearofpublication;
+			System.out.println("Price: ");
+			price=sc.nextInt();
+			System.out.println("Year of publication: ");
+			yearofpublication=sc.nextInt();
+			x = new DetectiveBook(code, title, price, yearofpublication);
+			break;
+		case 2:
+			String type;
+			String typepat="[physical]+[mathematic]+chemistry";
+			Pattern pattern = Pattern.compile(typepat);
+			Match matcher = pattern.(type);
+			
+		}
